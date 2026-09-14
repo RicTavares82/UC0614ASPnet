@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="template2.master.cs" Inherits="site.template2" %>
+
+<!doctype html>
+
+<html>
+  <head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server"> </asp:ContentPlaceHolder>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strategic Consulting - Transform Your Business</title>
+    <link rel="stylesheet" href="tooplate-strategic-style.css" />
+  </head>
+  <body>
+    <form id="form1" runat="server">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <div class="nav-container">
+          <a href="#home" class="logo">
+            <div class="logo-icon">◆</div>
+            <span>StrategicPro</span>
+          </a>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="geometric-shapes">
+          <div class="geo-shape"></div>
+          <div class="geo-shape"></div>
+          <div class="geo-shape"></div>
+          <div class="geo-shape"></div>
+          <div class="geo-shape"></div>
+        </div>
+        <div class="hero-content">
+          <h1 id="hero-headline">Strategic Excellence<br />Redefined</h1>
+          <p id="hero-paragraph">
+            We architect transformative business strategies that transcend
+            conventional thinking and deliver extraordinary results through
+            innovative methodologies.
+          </p>
+          <a href="#services" class="cta-button">Begin Your Journey</a>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+
+      <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="section">
+          <h2 class="section-title fade-in">Initiate Your Transformation</h2>
+          <div class="contact-content">
+            <p>
+              Ready to transcend conventional business boundaries? Let's
+              architect your strategic future together.
+            </p>
+            <form class="contact-form fade-in">
+              <div class="form-group">
+                <input type="text" placeholder="First Name" required />
+                <input type="text" placeholder="Last Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Email Address" required />
+                <input type="tel" placeholder="Phone Number" />
+              </div>
+              <input type="text" placeholder="Organization Name" />
+              <textarea
+                placeholder="Describe your strategic vision and transformation goals..."
+                required
+              ></textarea>
+              <button type="submit" class="submit-btn">
+                Launch Strategic Partnership
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#careers">Careers</a>
+          </div>
+          <div class="footer-copyright">
+            © 2025 StrategicPro. All rights reserved.
+          </div>
+          <div class="footer-design">
+            Design:
+            <a href="https://www.tooplate.com" target="_blank">Tooplate</a>
+          </div>
+        </div>
+      </footer>
+      <script src="tooplate-strategic-scripts.js"></script>
+    </form>
+  </body>
+</html>

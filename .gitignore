@@ -1,0 +1,6 @@
+AppSettings.local.config
+.vs/
+bin/
+obj/
+*.csproj.user
+/lista.txt

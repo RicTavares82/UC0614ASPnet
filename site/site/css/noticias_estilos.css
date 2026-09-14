@@ -1,0 +1,12 @@
+﻿body {
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+}
+
+.titulo {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
