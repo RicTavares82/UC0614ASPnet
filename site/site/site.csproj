@@ -103,6 +103,10 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="formulario.aspx" />
+    <Content Include="icons\apagar.png" />
+    <Content Include="icons\cancelar.png" />
+    <Content Include="icons\confirmar.png" />
+    <Content Include="icons\editar.png" />
     <Content Include="images\about-image-01.jpg" />
     <Content Include="images\team-member-01.jpg" />
     <Content Include="images\team-member-02.jpg" />
@@ -131,6 +135,7 @@
     <Content Include="img\top-news-4.jpg" />
     <Content Include="img\top-news-5.jpg" />
     <Content Include="inscricao_pdf.aspx" />
+    <Content Include="inserir_utilizador.aspx" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\datetimepicker.js" />
@@ -147,6 +152,7 @@
     <Content Include="lib\slick\slick.css" />
     <Content Include="lib\slick\slick.js" />
     <Content Include="lib\slick\slick.min.js" />
+    <Content Include="lista_formandos.aspx" />
     <Content Include="login.aspx" />
     <Content Include="Origem.aspx" />
     <Content Include="origem2.aspx" />
@@ -258,6 +264,20 @@
     </Compile>
     <Compile Include="inscricao_pdf.aspx.designer.cs">
       <DependentUpon>inscricao_pdf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inserir_utilizador.aspx.cs">
+      <DependentUpon>inserir_utilizador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inserir_utilizador.aspx.designer.cs">
+      <DependentUpon>inserir_utilizador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lista_formandos.aspx.cs">
+      <DependentUpon>lista_formandos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lista_formandos.aspx.designer.cs">
+      <DependentUpon>lista_formandos.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
